@@ -532,7 +532,7 @@
                     <div class="ewallet-logos">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_dana_blue.svg" alt="DANA">
                     </div>
-                    <p style="margin-top: 20px;">Setelah transfer, **WAJIB** klik tombol "Beli Sekarang" di halaman **Produk** untuk konfirmasi ke Admin.</p>
+                    <p style="margin-top: 20px;">Setelah transfer, WAJIB klik tombol "Beli Sekarang" di halaman Produk dan bawa bukti transfer untuk konfirmasi ke Admin.</p>
                 </div>
 
             </div>
@@ -606,7 +606,7 @@
             }
 
             const buyButtons = document.querySelectorAll('.buy-btn');
-            const ownerPhoneNumber = "085711306984";
+            const ownerPhoneNumber = "082315473501";
 
             buyButtons.forEach(button => {
                 button.addEventListener('click', (e) => {
@@ -618,9 +618,9 @@
                     const message = `Halo Admin,
 Saya mau konfirmasi order:
 
-*Produk:* ${product}
-*Harga:* Rp${price}
-*ID Transaksi:* ${txId}
+Produk: ${product}
+Harga: Rp${price}
+ID Transaksi: ${txId}
 
 Saya sudah melakukan pembayaran. Mohon segera diproses.
 Terima kasih!`;
